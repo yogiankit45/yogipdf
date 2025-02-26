@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YogiPDF - Online PDF Tools</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>YogiPDF</h1>
+            <p>Merge, Split, Compress, and Convert Your PDFs Online</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="tools">
+            <div class="tool">
+                <h2>Merge PDFs</h2>
+                <input type="file" id="merge-file" multiple>
+                <button onclick="mergePDF()">Merge Files</button>
+            </div>
+            <div class="tool">
+                <h2>Compress PDFs</h2>
+                <input type="file" id="compress-file">
+                <button onclick="compressPDF()">Compress PDF</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 YogiPDF. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
